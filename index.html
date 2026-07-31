@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sílabos — Ingeniería Estadística e Informática</title>
+<style>
+  :root{
+    --bg:#0b0e14;
+    --card:#ffffff;
+    --ink:#111318;
+    --muted:#9aa1ad;
+    --line:#e6e3da;
+    --accent:#8a3b2b;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    font-family:Georgia,"Times New Roman",serif;
+    color:#e8e9ec;
+    padding:64px 20px 90px;
+  }
+  .wrap{ max-width:980px; margin:0 auto; }
+  .eyebrow{
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12.5px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin-bottom:14px;
+  }
+  h1{
+    font-size:40px;
+    font-weight:400;
+    margin:0 0 10px;
+  }
+  .sub{
+    font-family:Arial,Helvetica,sans-serif;
+    color:var(--muted);
+    font-size:15px;
+    line-height:1.6;
+    max-width:640px;
+    margin-bottom:44px;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+    gap:20px;
+  }
+  .course{
+    background:var(--card);
+    color:var(--ink);
+    border-radius:6px;
+    padding:26px 26px 24px;
+    text-decoration:none;
+    display:block;
+    box-shadow:0 14px 34px rgba(0,0,0,.35);
+    transition:transform .15s ease;
+  }
+  .course:hover{ transform:translateY(-3px); }
+  .code{
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12px;
+    letter-spacing:.08em;
+    color:var(--accent);
+    text-transform:uppercase;
+    margin-bottom:10px;
+  }
+  .course h2{
+    font-size:21px;
+    font-weight:400;
+    margin:0 0 8px;
+    line-height:1.25;
+  }
+  .desc{
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:13.5px;
+    color:#565a63;
+    line-height:1.5;
+  }
+  footer{
+    max-width:980px;
+    margin:60px auto 0;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12.5px;
+    color:#5c626e;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="eyebrow">Ingeniería Estadística e Informática · UNA Puno</div>
+    <h1>Sílabos de curso</h1>
+    <div class="sub">
+      Repositorio de sílabos publicados en GitHub Pages. Selecciona un curso para ver el detalle y descargar el PDF.
+    </div>
+
+    <div class="grid">
+      <a class="course" href="aprendisaje-no-supervisado/index.html">
+        <div class="code">Machine Learning</div>
+        <h2>Aprendizaje No Supervisado</h2>
+        <div class="desc">Clustering, reducción de dimensionalidad y detección de patrones sin etiquetas.</div>
+      </a>
+
+      <a class="course" href="arquitectura-de-redes-y-protocologos/index.html">
+        <div class="code">Redes</div>
+        <h2>Arquitectura de Redes y Protocolos</h2>
+        <div class="desc">Fundamentos de redes, modelos de referencia y protocolos de comunicación.</div>
+      </a>
+
+      <a class="course" href="gestion-de-proyectos-tics/index.html">
+        <div class="code">EST315 · Ciclo VI</div>
+        <h2>Gestión de Proyectos TICs</h2>
+        <div class="desc">Formulación, planificación, ejecución y cierre de proyectos tecnológicos.</div>
+      </a>
+
+      <a class="course" href="modelos-lineales/index.html">
+        <div class="code">Estadística</div>
+        <h2>Modelos Lineales</h2>
+        <div class="desc">Modelos lineales generales aplicados al análisis estadístico.</div>
+      </a>
+
+      <a class="course" href="regresion-lineal-y-no-lineal/index.html">
+        <div class="code">Estadística</div>
+        <h2>Regresión Lineal y No Lineal</h2>
+        <div class="desc">Modelos de regresión, ajuste, diagnóstico e interpretación.</div>
+      </a>
+
+      <a class="course" href="series-de-tiempo/index.html">
+        <div class="code">Econometría</div>
+        <h2>Series de Tiempo</h2>
+        <div class="desc">Modelado ARIMA/SARIMA, estacionariedad y pronóstico.</div>
+      </a>
+    </div>
+
+    <footer>WVQ.dev — Repositorio "Curso" · GitHub Pages</footer>
+  </div>
+</body>
+</html>
